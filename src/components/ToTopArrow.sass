@@ -1,0 +1,24 @@
+.ToTopArrow
+	cursor: pointer
+	padding: 1.25vw
+	border-radius: 15px
+	position: fixed
+	bottom: 4vh
+	right: 1.5vw
+	z-index: 99
+	background-color: dimgray
+	font-size: 2em
+
+.visible
+	visibility: visible
+	opacity: .5
+	transition: visibility 0s ease, opacity .4s ease
+
+.visible:hover
+	transition: opacity .3s
+	opacity: 1
+
+.hidden
+	opacity: 0
+	visibility: hidden
+	transition: opacity .4s ease, visibility 0s ease .4s

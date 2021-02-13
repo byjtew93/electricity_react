@@ -1,21 +1,21 @@
-import * as React from 'react';
-import {Link} from 'react-router-dom';
+import * as React from 'react'
 import './Topbar.css'
+import {Global} from "../Global";
 
 export function Topbar() {
-	return <div className="Topbar">
+	return <div className="Topbar" id="topbar">
 		<div className="container">
-			<Link to="tel:+33659927399" className="item_container link">
+			<a href={"tel:" + Global.phoneNumberWithInd} className="item_container link">
 				<i className="fas fa-phone-alt"/>
-				<div className="text">06 59 92 73 99</div>
-			</Link>
-			<Link to="mailto:stephanelozes@yahoo.fr" className="item_container link">
+				<div className="text">{Global.phoneNumberParsed}</div>
+			</a>
+			<a href={"mailto:" + Global.mailAddress} className="item_container link">
 				<i className="fas fa-at"/>
-				<div className="text">stephanelozes@yahoo.fr</div>
-			</Link>
+				<div className="text">{Global.mailAddress}</div>
+			</a>
 			<div className="item_container">
 				<i className="fas fa-map-marker-alt"/>
-				<div className="text">Toulouse, FR</div>
+				<div className="text">{Global.locationAddress}</div>
 			</div>
 		</div>
 	</div>

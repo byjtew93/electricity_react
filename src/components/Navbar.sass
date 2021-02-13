@@ -1,7 +1,8 @@
 $navbar_backround_color: white
-$text_color: black
-$link_hover_color: goldenrod
-$hover_transition: 400ms
+$link_hover_color: #0c0c0c
+$text-color: lighten(#0C0C0C, 25%)
+$hover_transition: 200ms
+$navbar_height: 10vh
 
 *
 	color: white
@@ -10,10 +11,11 @@ $hover_transition: 400ms
 nav
 	top: 0
 	position: sticky
-	height: 10vh
+	height: $hover_transition
 	width: 100%
 	background-color: $navbar_backround_color
 	z-index: 2
+	box-shadow: 0px 3px 10px fade-out(black, .75)
 
 	.nav_container
 		height: 8vh
@@ -22,8 +24,9 @@ nav
 		flex-direction: row
 
 		.logo_container
+			cursor: pointer
 			height: 100%
-			width: 35%
+			margin: 0 auto
 			display: flex
 			flex-direction: row
 			align-content: center
@@ -54,20 +57,24 @@ nav
 			display: flex
 			flex-direction: row
 			align-items: center
+			justify-content: space-evenly
 			height: 100%
 			width: 65%
 			background-color: $navbar_backround_color
 
 			.link
-				color: $text_color
+				cursor: pointer
+				padding: 1%
+				color: $text-color
 				font-size: 2.5em
-				margin: 0 auto
-				transition: color $hover_transition
+				border-top: 4px solid transparent
+				border-bottom: 4px solid transparent
+				transition: color $hover_transition, border-bottom-color $hover_transition
 
 			.link:hover
 				color: $link_hover_color
-				border-color: $link_hover_color
-				transition: color $hover_transition
+				border-bottom-color: $link_hover_color
+				transition: color $hover_transition, border-bottom-color $hover_transition
 
 
 
