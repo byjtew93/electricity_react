@@ -22,9 +22,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+/.idea
 /.idea/
 .css.map
 .css
+.sassc
 /.eslintcache
 /.sass-cache
+/node_modules/
+
+
 .sassc
+/build/
+/node_modules/

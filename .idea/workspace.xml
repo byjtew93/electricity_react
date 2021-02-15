@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf39b174-2607-4c5c-965c-4a0439de4215" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sasslintPlugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.sass-cache/bc5dddc18bc8a1b7ed2b8acd3554bd0e1c928d79/App.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.sass-cache/bc5dddc18bc8a1b7ed2b8acd3554bd0e1c928d79/index.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/.sass-cache/9828cc91344f93a6438c23efaa98b3b9cae90c69/BottomBar.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/.sass-cache/9828cc91344f93a6438c23efaa98b3b9cae90c69/Footer.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/.sass-cache/9828cc91344f93a6438c23efaa98b3b9cae90c69/Navbar.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/.sass-cache/9828cc91344f93a6438c23efaa98b3b9cae90c69/ToTopArrow.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/.sass-cache/9828cc91344f93a6438c23efaa98b3b9cae90c69/Topbar.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ToTopArrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ToTopArrow.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Topbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Topbar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/.sass-cache/b2f390ed5d74f3551bf5836e654889ec1f6b209a/Home.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/Home.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/.sass-cache/1b4966e3be69b636a487432dd71d6500b8c570d3/Carousel.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/.sass-cache/1b4966e3be69b636a487432dd71d6500b8c570d3/ContactView.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/.sass-cache/1b4966e3be69b636a487432dd71d6500b8c570d3/HeroView.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/.sass-cache/1b4966e3be69b636a487432dd71d6500b8c570d3/ServiceView.sassc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/ContactView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/ContactView.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/HeroView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/HeroView.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/ServiceView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/views/ServiceView.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="Sass File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1o7dlbFb4ZUf6fuXEcXi2QkVFm0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/pages/home/views" />
+      <recent name="$PROJECT_DIR$/src/pages/home/views/ContactView" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2">
+        <option name="FwBeforeLaunchTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf39b174-2607-4c5c-965c-4a0439de4215" name="Default Changelist" comment="" />
+      <created>1612641714476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612641714476</updated>
+      <workItem from="1612641715660" duration="2540000" />
+      <workItem from="1612709779168" duration="3676000" />
+      <workItem from="1612720058555" duration="254000" />
+      <workItem from="1612720337406" duration="1878000" />
+      <workItem from="1612780940591" duration="551000" />
+      <workItem from="1612781516382" duration="8189000" />
+      <workItem from="1612791049704" duration="22838000" />
+      <workItem from="1612867092734" duration="6788000" />
+      <workItem from="1612960160776" duration="14579000" />
+      <workItem from="1613210283206" duration="4285000" />
+      <workItem from="1613225371806" duration="4328000" />
+      <workItem from="1613247604698" duration="3657000" />
+      <workItem from="1613304843237" duration="4239000" />
+      <workItem from="1613320182446" duration="4333000" />
+      <workItem from="1613336011166" duration="3213000" />
+      <workItem from="1613399409083" duration="7532000" />
+      <workItem from="1613406977884" duration="216000" />
+      <workItem from="1613407239425" duration="323000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit&#10;+ Navbar (WIP)&#10;+ Topbar (DONE)&#10;+ Cookie bar (DONE)&#10;+ Footer (WIP)">
+      <created>1612793396722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612793396723</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# Bottombar DONE&#10;+ ContactView DONE (without the backend)&#10;+ Global variables&#10;# HeroView with bar and icons&#10;+ To TopArrow DONE">
+      <created>1613214557941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613214557941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# HeroView: Set the background carousel OK with the hover content.">
+      <created>1613307275722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613307275722</updated>
+    </task>
+    <task id="LOCAL-00004" summary="# Footer DONE&#10;# TopBar background_color&#10;# ServicesView DONE&#10;# deploy for package_json">
+      <created>1613405544833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613405544833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit&#10;+ Navbar (WIP)&#10;+ Topbar (DONE)&#10;+ Cookie bar (DONE)&#10;+ Footer (WIP)" />
+    <MESSAGE value="# Bottombar DONE&#10;+ ContactView DONE (without the backend)&#10;+ Global variables&#10;# HeroView with bar and icons&#10;+ To TopArrow DONE" />
+    <MESSAGE value="# HeroView: Set the background carousel OK with the hover content." />
+    <MESSAGE value="# Footer DONE&#10;# TopBar background_color&#10;# ServicesView DONE&#10;# deploy for package_json" />
+    <MESSAGE value="Test Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

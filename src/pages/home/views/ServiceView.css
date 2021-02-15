@@ -1,0 +1,44 @@
+.ServicesView {
+  width: 100%; }
+  .ServicesView .container {
+    padding: 2vh 10vw;
+    height: 85%; }
+    .ServicesView .container .title {
+      font-size: 2.5em;
+      text-align: center;
+      color: black;
+      margin-bottom: 2%; }
+    .ServicesView .container .blocks {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-evenly; }
+      .ServicesView .container .blocks .block:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: box-shadow 300ms; }
+      .ServicesView .container .blocks .block {
+        width: 30%;
+        height: 30vh;
+        border: 0.1px solid rgba(0, 0, 0, 0.2);
+        background-color: antiquewhite;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        transition: box-shadow 300ms; }
+        .ServicesView .container .blocks .block .image {
+          width: 100%;
+          object-fit: cover;
+          height: 60%;
+          border-bottom: 0.5px solid rgba(0, 0, 0, 0.3); }
+        .ServicesView .container .blocks .block .block_container {
+          width: 90%;
+          padding: 2% 5%; }
+          .ServicesView .container .blocks .block .block_container .block_title {
+            text-align: center;
+            font-size: 1.6em;
+            margin-bottom: 2.5%;
+            color: #1a1a1a;
+            font-variant-caps: petite-caps; }
+          .ServicesView .container .blocks .block .block_container .block_description {
+            font-size: 1.1em;
+            color: #333333; }
+
+/*# sourceMappingURL=ServiceView.css.map */
