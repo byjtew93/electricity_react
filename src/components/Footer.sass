@@ -1,5 +1,49 @@
+$transition_time: 200ms
+
 footer
 	width: 100%
-	height: 6vh
-	background-color: #0C0C0C
+	padding: .5% 0
+	background-color: #181818
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+
+	.block:nth-child(1), .block:nth-child(2)
+		.container
+			border-right: .5px solid white
+
+	.block
+		margin: 0 auto
+		width: 33.3333%
+
+		.container
+			padding: 0 10%
+
+			.title
+				margin-top: 0
+				margin-bottom: 2%
+				font-size: 1.1em
+
+			.links
+				display: flex
+				flex-direction: row
+				align-content: center
+				justify-content: space-evenly
+
+				.link:hover
+					border-bottom-color: white
+					transition: border-bottom-color $transition_time
+
+				.link
+					margin: 0 3%
+					border-bottom: .5px solid transparent
+					transition: border-bottom-color $transition_time
+
+					img
+						height: 6vh
+						object-fit: cover
+
+
+
+
 

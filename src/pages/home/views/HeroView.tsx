@@ -1,24 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './HeroView.css'
 
 export function HeroView() {
+
+	const [backgroundImagesVisible, setBackgroundImagesVisible] = useState(1)
+
+
+
+	function incrementBackgroundImagesVisible() {
+		for(let i=1; i<=5; i++)
+			setTimeout(function() {
+				setBackgroundImagesVisible(i+1)
+				console.log("Updated num " + i)
+			}, i*1500)
+	}
+
 	return <div className="HeroView" id="hero">
 		<div className="pic-ctn">
-			<img
-				src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-				alt="" className="pic"/>
-			<img
-				src="https://images.pexels.com/photos/4276182/pexels-photo-4276182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-				alt="" className="pic"/>
-			<img
-				src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-				alt="" className="pic"/>
-			<img
-				src="https://images.pexels.com/photos/1583656/pexels-photo-1583656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-				alt="" className="pic"/>
-			<img
-				src="https://images.pexels.com/photos/1583657/pexels-photo-1583657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-				alt="" className="pic"/>
+			<img src={backgroundImagesVisible > 0 ? "/images/b01.jpg" : ""} alt="" className="pic" onLoad={incrementBackgroundImagesVisible}/>
+			<img src={backgroundImagesVisible > 1 ? "/images/b02.jpg" : ""} alt="" className="pic"/>
+			<img src={backgroundImagesVisible > 2 ? "/images/b03.jpg" : ""} alt="" className="pic"/>
+			<img src={backgroundImagesVisible > 3 ? "/images/b04.jpg" : ""} alt="" className="pic"/>
+			<img src={backgroundImagesVisible > 4 ? "/images/b05.jpg" : ""} alt="" className="pic"/>
 		</div>
 		<div className="color_filter_container">
 			<div className="container">
@@ -26,7 +29,7 @@ export function HeroView() {
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/wire.svg" alt="wire"/>
-							<div className="title">Création </div>
+							<div className="title">Installation</div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>
@@ -54,7 +57,7 @@ export function HeroView() {
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/energy-class.svg" alt="wire"/>
-							<div className="title">Économie d'énergie</div>
+							<div className="title">Bilan énergétique</div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>

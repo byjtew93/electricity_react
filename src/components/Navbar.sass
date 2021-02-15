@@ -1,5 +1,5 @@
 $navbar_backround_color: white
-$link_hover_color: #0c0c0c
+$link_hover_color: #282828
 $text-color: lighten(#0C0C0C, 25%)
 $hover_transition: 200ms
 $navbar_height: 10vh
@@ -68,7 +68,7 @@ nav
 				color: $text-color
 				font-size: 2.5em
 				border-top: 4px solid transparent
-				border-bottom: 4px solid transparent
+				border-bottom: 2px solid fade_out($link_hover_color, .6)
 				transition: color $hover_transition, border-bottom-color $hover_transition
 
 			.link:hover

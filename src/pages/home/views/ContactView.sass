@@ -1,5 +1,5 @@
 $middle_margin: 4vw
-$transition_time: .075s
+$transition_time: 200ms
 $right_background_color: desaturate(lighten(darkslategray, 20%), 15%)
 
 .input_container
@@ -108,9 +108,10 @@ $right_background_color: desaturate(lighten(darkslategray, 20%), 15%)
 					text-align: center
 					padding: 2vh 0
 					border-top: 4px solid transparent
-					border-bottom: 4px solid transparent
+					border-bottom: 4px solid
+					border-bottom-color: transparent
 					background-color: fade-out(black, .75)
-					transition: background-color $transition_time, border-bottom $transition_time
+					transition: background-color $transition_time, border-bottom-color $transition_time
 
 					i
 						margin-bottom: 10px
@@ -119,6 +120,6 @@ $right_background_color: desaturate(lighten(darkslategray, 20%), 15%)
 					.text
 
 				.item_container:hover
-					border-bottom: 4px solid black
+					border-bottom-color: white
 					background-color: fade-out(black, .65)
-					transition: background-color $transition_time, border-bottom $transition_time
+					transition: background-color $transition_time, border-bottom-color $transition_time
