@@ -8,6 +8,10 @@ import {BottomBar} from "./components/BottomBar";
 import {Topbar} from "./components/Topbar";
 import { ToTopArrow } from './components/ToTopArrow'
 
+export function isPortrait() {
+	return window.screen.width < window.screen.height
+}
+
 function App() {
 	const [showScroll, setShowScroll] = useState(false)
 	const checkScrollTop = () => {
@@ -16,6 +20,7 @@ function App() {
 		else if (showScroll && window.pageYOffset <= window.innerHeight)
 			setShowScroll(false)
 	};
+
 	window.addEventListener('scroll', checkScrollTop)
 
 	return <div className="App">
@@ -25,7 +30,7 @@ function App() {
 			<Switch>
 				<Route path="/" exact component={Home}/>
 			</Switch>
-			<ToTopArrow/>
+			{!isPortrait() && <ToTopArrow/>}
 			<BottomBar/>
 			<Footer/>
 		</BrowserRouter>

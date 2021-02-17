@@ -1,6 +1,7 @@
 import * as React from 'react'
 import './Topbar.css'
 import {Global} from "../Global";
+import {isPortrait} from '../App'
 
 export function Topbar() {
 	return <div className="Topbar" id="topbar">
@@ -13,10 +14,11 @@ export function Topbar() {
 				<i className="fas fa-at"/>
 				<div className="text">{Global.mailAddress}</div>
 			</a>
-			<div className="item_container">
-				<i className="fas fa-map-marker-alt"/>
-				<div className="text">{Global.locationAddress}</div>
-			</div>
+			{!isPortrait() &&
+				<div className="item_container">
+					<i className="fas fa-map-marker-alt"/>
+					<div className="text">{Global.locationAddress}</div>
+				</div>}
 		</div>
 	</div>
 }

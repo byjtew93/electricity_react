@@ -4,18 +4,18 @@ $transition_time: 300ms
 	width: 100%
 
 	.container
-		padding: 2vh 10vw
-		height: 85%
+		padding: 2vh 7vw 0
 
 		.title
 			font-size: 2.5em
 			text-align: center
 			color: black
-			margin-bottom: 2%
+			margin-bottom: 5%
 
 		.blocks
+			width: 100%
 			display: flex
-			flex-direction: row
+			flex-wrap: wrap
 			align-content: center
 			justify-content: space-evenly
 
@@ -25,7 +25,8 @@ $transition_time: 300ms
 
 			.block
 				width: 30%
-				height: 30vh
+				margin: 0 .5% 5%
+				min-width: 250px
 				border: .1px solid fade-out(black, .8)
 				background-color: antiquewhite
 				box-shadow: 0 0 10px fade-out(black, .95)
@@ -34,22 +35,29 @@ $transition_time: 300ms
 				.image
 					width: 100%
 					object-fit: cover
-					height: 60%
+					height: 55%
 					border-bottom: .5px solid fade-out(black, .7)
 
 				.block_container
 					width: 90%
-					padding: 2% 5%
+					height: 45%
+					padding: 2.5% 5% 1%
 
 					.block_title
+						display: flex
+						justify-content: center
+						align-items: center
+						height: 27.5%
+						margin-bottom: 3%
 						text-align: center
-						font-size: 1.6em
-						margin-bottom: 2.5%
+						font-size: 160%
+
 						color: lighten(black, 10%)
 						font-variant-caps: petite-caps
 
 					.block_description
-						font-size: 1.1em
+						height: 70%
+						font-size: 110%
 						color: lighten(black, 20%)
 
 

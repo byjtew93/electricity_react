@@ -3,9 +3,6 @@ import './Footer.css'
 import {Link} from "react-router-dom";
 
 export function Footer() {
-
-
-
 	return <footer>
 		<div className="block left">
 			<div className="container">

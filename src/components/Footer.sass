@@ -1,5 +1,10 @@
 $transition_time: 200ms
 
+*
+	text-decoration: none
+	color: #e8e8e8
+	border-color: #e8e8e8
+
 footer
 	width: 100%
 	padding: .5% 0
@@ -10,7 +15,7 @@ footer
 
 	.block:nth-child(1), .block:nth-child(2)
 		.container
-			border-right: .5px solid white
+			border-right: .5px solid
 
 	.block
 		margin: 0 auto
@@ -31,7 +36,7 @@ footer
 				justify-content: space-evenly
 
 				.link:hover
-					border-bottom-color: white
+					border-bottom-color: inherit
 					transition: border-bottom-color $transition_time
 
 				.link
@@ -42,6 +47,26 @@ footer
 					img
 						height: 6vh
 						object-fit: cover
+
+@media screen and (orientation: portrait)
+	footer
+		flex-direction: column
+
+		.block
+			width: 80%
+			margin: 0 auto
+
+			.container
+				padding: .75vh 0
+
+		.block:nth-child(1), .block:nth-child(2)
+			.container
+				border-right: 0 transparent
+				border-bottom: .5px solid
+
+
+	.links
+		flex-direction: column
 
 
 

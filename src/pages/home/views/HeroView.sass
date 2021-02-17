@@ -1,4 +1,4 @@
-$navbar_height: 14vh
+$navbar_height: 11 - 1vh
 $transition_time: 200ms
 $background_transition_time: 3s
 $bottombar_height: 2.5vh
@@ -84,7 +84,7 @@ $heroview_height: 100vh - $navbar_height
 			background-color: $container_background_color
 			z-index: 0
 
-			$border_color: fade-out(yellow, .7)
+			$border_color: fade-out(#4e3e2b, .7)
 			.top_container
 				height: $container_height
 				width: 60%
@@ -99,7 +99,7 @@ $heroview_height: 100vh - $navbar_height
 				align-content: center
 				justify-content: center
 
-				$item_background_container_color: darken(#a09a85, 20%)
+				$item_background_container_color: #6d5d51
 				.item:hover
 					border-bottom: 1px solid white
 					opacity: 1
@@ -132,7 +132,7 @@ $heroview_height: 100vh - $navbar_height
 							object-fit: contain
 
 						.title
-							font-size: 1.8em
+							font-size: 150%
 							font-variant-caps: all-small-caps
 							font-weight: bolder
 							color: darken(white, 10%)
@@ -151,8 +151,7 @@ $heroview_height: 100vh - $navbar_height
 
 
 @media screen and (orientation: portrait)
-	.HeroView
-		background-image: url("/src/assets/images/portrait_background.jpg")
+
 
 
 

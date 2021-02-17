@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './ContactView.css'
 import {Global} from "../../../Global";
+import {isPortrait} from '../../../App'
 
 export function ContactView() {
 	interface MyFormValues {
@@ -26,6 +27,7 @@ export function ContactView() {
 	}
 	const [values, setValues] = useState(initialValues)
 
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const phoneInputCharacters = ['+', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 	const set = (name: string) => {
 		// @ts-ignore
@@ -42,6 +44,7 @@ export function ContactView() {
 
 	return <div className="ContactView" id="contact">
 		<div className="left">
+			{isPortrait() && <div className="hover_text">Nous contacter</div>}
 		</div>
 		<div className="right">
 			<div className="right_inner_left">
@@ -107,7 +110,7 @@ export function ContactView() {
 								<label>Description:</label>
 								<textarea id="description" value={values.description} name="description"
 										  maxLength={1500} onChange={set('description')}
-										  placeholder="Décrivez le motif avec précision. Nous vous recontacterons dans les plus brefs délais."/>
+										  placeholder={"Décrivez le motif avec précision.\nNous vous recontacterons dans les plus brefs délais."}/>
 							</div>
 						</div>
 					</div>
@@ -130,10 +133,10 @@ export function ContactView() {
 						<i className="fas fa-at"/>
 						<div className="text">{Global.mailAddress}</div>
 					</a>
-					<div className="item_container">
+					{!isPortrait() && <div className="item_container">
 						<i className="fas fa-map-marker-alt"/>
 						<div className="text">{Global.locationAddress}</div>
-					</div>
+					</div>}
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,48 @@
+.BottomBar
+	position: fixed
+	background-color: #282828
+	width: 100%
+	bottom: 0
+	left: 0
+
+	.container
+		width: 100%
+
+		.text
+			background-color: #282828
+
+		.button
+			width: 20%
+			cursor: pointer
+			background-color: green
+			padding: .5vh 0
+
+		.button:hover
+			background-color: darkgreen
+
+@media screen and (orientation: landscape)
+	.container
+		display: flex
+		justify-content: flex-end
+		align-content: center
+
+		.text
+			display: flex
+			align-items: center
+			justify-content: flex-end
+			width: 70%
+			padding-right: 10%
+
+		.button
+			width: 20%
+
+@media screen and (orientation: portrait)
+	.BottomBar
+		.container
+			.text
+				margin-top: .5vh
+
+			.button
+				margin-top: .5vh
+				width: 100%
+

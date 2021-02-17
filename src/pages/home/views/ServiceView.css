@@ -1,16 +1,16 @@
 .ServicesView {
   width: 100%; }
   .ServicesView .container {
-    padding: 2vh 10vw;
-    height: 85%; }
+    padding: 2vh 7vw 0; }
     .ServicesView .container .title {
       font-size: 2.5em;
       text-align: center;
       color: black;
-      margin-bottom: 2%; }
+      margin-bottom: 5%; }
     .ServicesView .container .blocks {
+      width: 100%;
       display: flex;
-      flex-direction: row;
+      flex-wrap: wrap;
       align-content: center;
       justify-content: space-evenly; }
       .ServicesView .container .blocks .block:hover {
@@ -18,7 +18,8 @@
         transition: box-shadow 300ms; }
       .ServicesView .container .blocks .block {
         width: 30%;
-        height: 30vh;
+        margin: 0 0.5% 5%;
+        min-width: 250px;
         border: 0.1px solid rgba(0, 0, 0, 0.2);
         background-color: antiquewhite;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -26,19 +27,25 @@
         .ServicesView .container .blocks .block .image {
           width: 100%;
           object-fit: cover;
-          height: 60%;
+          height: 55%;
           border-bottom: 0.5px solid rgba(0, 0, 0, 0.3); }
         .ServicesView .container .blocks .block .block_container {
           width: 90%;
-          padding: 2% 5%; }
+          height: 45%;
+          padding: 2.5% 5% 1%; }
           .ServicesView .container .blocks .block .block_container .block_title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 27.5%;
+            margin-bottom: 3%;
             text-align: center;
-            font-size: 1.6em;
-            margin-bottom: 2.5%;
+            font-size: 160%;
             color: #1a1a1a;
             font-variant-caps: petite-caps; }
           .ServicesView .container .blocks .block .block_container .block_description {
-            font-size: 1.1em;
+            height: 70%;
+            font-size: 110%;
             color: #333333; }
 
 /*# sourceMappingURL=ServiceView.css.map */

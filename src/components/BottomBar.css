@@ -1,0 +1,39 @@
+.BottomBar {
+  position: fixed;
+  background-color: #282828;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  .BottomBar .container {
+    width: 100%; }
+    .BottomBar .container .text {
+      background-color: #282828; }
+    .BottomBar .container .button {
+      width: 20%;
+      cursor: pointer;
+      background-color: green;
+      padding: 0.5vh 0; }
+    .BottomBar .container .button:hover {
+      background-color: darkgreen; }
+
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center; }
+    .container .text {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 70%;
+      padding-right: 10%; }
+    .container .button {
+      width: 20%; } }
+@media screen and (orientation: portrait) {
+  .BottomBar .container .text {
+    margin-top: 0.5vh; }
+  .BottomBar .container .button {
+    margin-top: 0.5vh;
+    width: 100%; } }
+
+/*# sourceMappingURL=BottomBar.css.map */
