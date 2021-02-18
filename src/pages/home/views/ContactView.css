@@ -96,6 +96,8 @@
             .ContactView .right .right_inner_right .container .item_container i {
               margin-bottom: 10px;
               font-size: 100%; }
+            .ContactView .right .right_inner_right .container .item_container .contactview_text {
+              font-size: 85%; }
           .ContactView .right .right_inner_right .container .link:hover {
             border-bottom-color: white;
             background-color: rgba(0, 0, 0, 0.35);
@@ -186,6 +188,8 @@
             .ContactView .right .right_inner_right .container .item_container i {
               margin-bottom: 10px;
               font-size: 100%; }
+            .ContactView .right .right_inner_right .container .item_container .contactview_text {
+              font-size: 85%; }
           .ContactView .right .right_inner_right .container .link:hover {
             border-bottom-color: white;
             background-color: rgba(0, 0, 0, 0.35);

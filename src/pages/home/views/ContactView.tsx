@@ -145,19 +145,19 @@ export function ContactView() {
 				<div className="container">
 					<a href={"tel:" + Global.phoneNumberWithInd} className="item_container link">
 						<i className="fas fa-phone-alt"/>
-						<div className="contactview_text">{Global.phoneNumberParsed}</div>
+						<div className="contactview_text"><h1>{Global.phoneNumberParsed}</h1></div>
 					</a>
 					<a href={"tel:" + Global.housePhoneNumberWithInd} className="item_container link">
 						<i className="fas fa-phone-square-alt"/>
-						<div className="contactview_text">{Global.housePhoneNumberParsed}</div>
+						<div className="contactview_text"><h1>{Global.housePhoneNumberParsed}</h1></div>
 					</a>
 					<a href={"mailto:" + Global.mailAddress} className="item_container link">
 						<i className="fas fa-at"/>
-						<div className="contactview_text">{Global.mailAddress}</div>
+						<div className="contactview_text"><h1>{Global.mailAddress}</h1></div>
 					</a>
 					{!isPortrait() && <div className="item_container">
                         <i className="fas fa-map-marker-alt"/>
-                        <div className="contactview_text">{Global.locationAddress}</div>
+                        <div className="contactview_text"><h1>{Global.locationAddress}</h1></div>
                     </div>}
 				</div>
 			</div>

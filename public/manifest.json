@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Lozes Électricité",
+  "name": "Lozes Électricité - Électricien spécialiste à Toulouse et ses alentours",
+  "description": "Société toulousaine d'électricité depuis plus de 20 ans. Spécialisée en hôtellerie et restauration grâce à un large éventail de compétences.",
   "icons": [
     {
       "src": "favicon.ico",

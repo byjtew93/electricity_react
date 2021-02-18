@@ -6,7 +6,8 @@ import './App.css'
 import {Navbar} from "./components/Navbar";
 import {BottomBar} from "./components/BottomBar";
 import {Topbar} from "./components/Topbar";
-import { ToTopArrow } from './components/ToTopArrow'
+import {ToTopArrow} from './components/ToTopArrow'
+import LazyLoad from 'react-lazyload'
 
 export function isPortrait() {
 	return window.matchMedia("(orientation: portrait)").matches
@@ -32,7 +33,9 @@ function App() {
 			</Switch>
 			{!isPortrait() && <ToTopArrow/>}
 			<BottomBar/>
-			<Footer/>
+			<LazyLoad once offset={100}>
+				<Footer/>
+			</LazyLoad>
 		</BrowserRouter>
 	</div>
 }

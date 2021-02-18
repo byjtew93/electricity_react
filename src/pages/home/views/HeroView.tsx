@@ -26,35 +26,35 @@ export function HeroView() {
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/wire.svg" alt="wire"/>
-							<div className="title">Installation</div>
+							<div className="title"><h1>Installation</h1></div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/glove.svg" alt="wire"/>
-							<div className="title">Mise en sécurité</div>
+							<div className="title"><h1>Mise en sécurité</h1></div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/light-bulb.svg" alt="wire"/>
-							<div className="title">Dépannage</div>
+							<div className="title"><h1>Dépannage</h1></div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/transfer-switch.svg" alt="wire"/>
-							<div className="title">Mise aux normes</div>
+							<div className="title"><h1>Mise aux normes</h1></div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>
 					<div className="item">
 						<div className="container">
 							<img className="icon" src="/images/energy-class.svg" alt="wire"/>
-							<div className="title">Bilan énergétique</div>
+							<div className="title"><h1>Bilan énergétique</h1></div>
 							<div className="spacer_bar"/>
 						</div>
 					</div>
