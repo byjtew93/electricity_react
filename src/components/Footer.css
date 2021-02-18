@@ -15,34 +15,35 @@ footer {
   footer .block {
     margin: 0 auto;
     width: 33.3333%; }
-    footer .block .container {
+    footer .block .footer_container {
       padding: 0 10%; }
-      footer .block .container .title {
+      footer .block .footer_container .title {
         margin-top: 0;
         margin-bottom: 2%;
         font-size: 1.1em; }
-      footer .block .container .links {
+      footer .block .footer_container .links {
         display: flex;
         flex-direction: row;
         align-content: center;
         justify-content: space-evenly; }
-        footer .block .container .links .link:hover {
+        footer .block .footer_container .links .link:hover {
           border-bottom-color: inherit;
           transition: border-bottom-color 200ms; }
-        footer .block .container .links .link {
+        footer .block .footer_container .links .link {
           margin: 0 3%;
           border-bottom: 0.5px solid transparent;
           transition: border-bottom-color 200ms; }
-          footer .block .container .links .link img {
+          footer .block .footer_container .links .link img {
             height: 6vh;
             object-fit: cover; }
 
 @media screen and (orientation: portrait) {
   footer {
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 2vh 0; }
     footer .block {
       width: 80%;
-      margin: 0 auto; }
+      margin: 0 auto 1vh auto; }
       footer .block .container {
         padding: 0.75vh 0; }
     footer .block:nth-child(1) .container, footer .block:nth-child(2) .container {

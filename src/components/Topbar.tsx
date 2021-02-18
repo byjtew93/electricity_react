@@ -8,16 +8,16 @@ export function Topbar() {
 		<div className="container">
 			<a href={"tel:" + Global.phoneNumberWithInd} className="item_container link">
 				<i className="fas fa-phone-alt"/>
-				<div className="text">{Global.phoneNumberParsed}</div>
+				<div className="topbar_text">{Global.phoneNumberParsed}</div>
 			</a>
 			<a href={"mailto:" + Global.mailAddress} className="item_container link">
 				<i className="fas fa-at"/>
-				<div className="text">{Global.mailAddress}</div>
+				<div className="topbar_text">{Global.mailAddress}</div>
 			</a>
 			{!isPortrait() &&
 				<div className="item_container">
 					<i className="fas fa-map-marker-alt"/>
-					<div className="text">{Global.locationAddress}</div>
+					<div className="topbar_text">{Global.locationAddress}</div>
 				</div>}
 		</div>
 	</div>

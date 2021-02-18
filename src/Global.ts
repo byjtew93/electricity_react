@@ -31,7 +31,7 @@ export abstract class Global {
 	}
 
 	static get mailAddress() : string {
-		return "stephanelozes@yahoo.fr"
+		return "contact@lozes-electricite.com"
 	}
 
 	static get locationAddress() : string {

@@ -4,18 +4,19 @@ $transition_time: 300ms
 	width: 100%
 
 	.container
+		display: flex
+		flex-direction: column
 		padding: 2vh 7vw 0
 
 		.title
 			font-size: 2.5em
 			text-align: center
 			color: black
-			margin-bottom: 5%
+			margin-bottom: 1.5vh
 
 		.blocks
 			width: 100%
 			display: flex
-			flex-wrap: wrap
 			align-content: center
 			justify-content: space-evenly
 
@@ -24,9 +25,7 @@ $transition_time: 300ms
 				transition: box-shadow $transition_time
 
 			.block
-				width: 30%
-				margin: 0 .5% 5%
-				min-width: 250px
+				margin: 0 .5% 2vh
 				border: .1px solid fade-out(black, .8)
 				background-color: antiquewhite
 				box-shadow: 0 0 10px fade-out(black, .95)
@@ -35,19 +34,16 @@ $transition_time: 300ms
 				.image
 					width: 100%
 					object-fit: cover
-					height: 55%
 					border-bottom: .5px solid fade-out(black, .7)
 
 				.block_container
 					width: 90%
-					height: 45%
 					padding: 2.5% 5% 1%
 
 					.block_title
 						display: flex
 						justify-content: center
 						align-items: center
-						height: 27.5%
 						margin-bottom: 3%
 						text-align: center
 						font-size: 160%
@@ -56,8 +52,33 @@ $transition_time: 300ms
 						font-variant-caps: petite-caps
 
 					.block_description
-						height: 70%
 						font-size: 110%
 						color: lighten(black, 20%)
+
+@media screen and (orientation: landscape)
+	.blocks
+		flex-wrap: wrap
+
+		.block
+			width: 30%
+			min-width: 250px
+
+			.image
+				height: 55%
+
+			.block_container
+				height: 45%
+
+@media screen and (orientation: portrait)
+	.blocks
+		flex-direction: column
+		align-items: center
+
+		.block
+			width: 70%
+
+			.block_container
+				height: 40%
+
 
 

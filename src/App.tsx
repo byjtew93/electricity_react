@@ -9,7 +9,7 @@ import {Topbar} from "./components/Topbar";
 import { ToTopArrow } from './components/ToTopArrow'
 
 export function isPortrait() {
-	return window.screen.width < window.screen.height
+	return window.matchMedia("(orientation: portrait)").matches
 }
 
 function App() {

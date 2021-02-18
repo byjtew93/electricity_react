@@ -1,5 +1,6 @@
 {
   "name": "electricity_react",
+  "homepage": "http://lozes-electricite.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,7 @@
     "@types/node": "^12.19.16",
     "@types/react": "^17.0.1",
     "@types/react-dom": "^17.0.0",
+    "emailjs-com": "^2.6.4",
     "final-form": "^4.20.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

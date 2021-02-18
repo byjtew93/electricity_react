@@ -14,100 +14,189 @@
   100% {
     transform: translateX(-6vw);
     opacity: 0; } }
-.HeroView {
-  width: 100%;
-  height: 90vh;
-  background-color: transparent;
-  position: relative;
-  border-bottom: 0.5px solid black; }
-  .HeroView .pic-ctn {
-    position: relative;
+@media screen and (orientation: landscape) {
+  .HeroView {
     width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    background-color: transparent; }
-    .HeroView .pic-ctn .pic {
-      position: absolute;
-      top: 0;
+    height: 90vh;
+    background-color: transparent;
+    position: relative;
+    border-bottom: 0.5px solid black; }
+    .HeroView .pic-ctn {
+      position: relative;
+      width: 100%;
       height: 100%;
-      width: 103vw;
-      object-fit: cover;
-      object-position: center center;
-      left: -3vw;
-      opacity: 0;
-      z-index: -1;
-      animation: display 15s infinite; }
-    .HeroView .pic-ctn img:nth-child(2) {
-      animation-delay: 3s; }
-    .HeroView .pic-ctn img:nth-child(3) {
-      animation-delay: 6s; }
-    .HeroView .pic-ctn img:nth-child(4) {
-      animation-delay: 9s; }
-    .HeroView .pic-ctn img:nth-child(5) {
-      animation-delay: 12s; }
-  .HeroView .color_filter_container {
-    height: 18vh;
+      overflow-x: hidden;
+      background-color: transparent; }
+      .HeroView .pic-ctn .pic {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 103vw;
+        object-fit: cover;
+        object-position: center center;
+        left: -3vw;
+        opacity: 0;
+        z-index: -1;
+        animation: display 15s infinite; }
+      .HeroView .pic-ctn img:nth-child(2) {
+        animation-delay: 3s; }
+      .HeroView .pic-ctn img:nth-child(3) {
+        animation-delay: 6s; }
+      .HeroView .pic-ctn img:nth-child(4) {
+        animation-delay: 9s; }
+      .HeroView .pic-ctn img:nth-child(5) {
+        animation-delay: 12s; }
+    .HeroView .color_filter_container {
+      height: 18vh;
+      top: 0;
+      position: absolute;
+      width: 100%;
+      padding-top: 72vh;
+      background-color: rgba(0, 0, 0, 0.05); }
+      .HeroView .color_filter_container .container {
+        height: 18vh;
+        width: 100%;
+        background-color: transparent;
+        z-index: 0; }
+        .HeroView .color_filter_container .container .top_container {
+          height: 18vh;
+          width: 70%;
+          margin: 0 auto;
+          border-left: 0.5px solid rgba(78, 62, 43, 0.3);
+          border-right: 0.5px solid rgba(78, 62, 43, 0.3);
+          border-top: 1px solid rgba(78, 62, 43, 0.3);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+          background-color: transparent;
+          display: flex;
+          flex-direction: row;
+          align-content: center;
+          justify-content: center; }
+          .HeroView .color_filter_container .container .top_container .item:hover {
+            border-bottom: 1px solid white;
+            opacity: 1;
+            transition: opacity 200ms; }
+          .HeroView .color_filter_container .container .top_container .item:hover .title {
+            color: white;
+            opacity: 1;
+            transition: color 200ms, opacity 200ms; }
+          .HeroView .color_filter_container .container .top_container .item {
+            border-left: 0.5px solid rgba(78, 62, 43, 0.3);
+            border-right: 0.5px solid rgba(78, 62, 43, 0.3);
+            width: 20%;
+            background-color: #6d5d51;
+            opacity: 0.85;
+            padding: 1.5vh 0.5vw;
+            transition: opacity 200ms; }
+            .HeroView .color_filter_container .container .top_container .item .container {
+              height: 100%;
+              background-color: transparent;
+              display: flex;
+              flex-direction: column;
+              align-content: center;
+              justify-content: space-between; }
+              .HeroView .color_filter_container .container .top_container .item .container .icon {
+                height: 50%;
+                object-fit: contain; }
+              .HeroView .color_filter_container .container .top_container .item .container .title {
+                font-size: 150%;
+                font-variant-caps: all-small-caps;
+                font-weight: bolder;
+                color: #e6e6e6;
+                transition: color 200ms;
+                max-lines: 2;
+                overflow: hidden; }
+              .HeroView .color_filter_container .container .top_container .item .container .spacer_bar {
+                display: inline-block;
+                margin: 1vh auto 0;
+                width: 45%;
+                border-top: 1px solid white; } }
+@media screen and (orientation: portrait) {
+  .HeroView {
+    width: 100%;
+    height: 82vh;
+    background-color: transparent;
+    position: relative;
+    border-bottom: 0.5px solid black; }
+    .HeroView .pic-ctn {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      background-color: transparent; }
+      .HeroView .pic-ctn .pic {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 103vw;
+        object-fit: cover;
+        object-position: center center;
+        left: -3vw;
+        opacity: 0;
+        z-index: -1;
+        animation: display 15s infinite; }
+      .HeroView .pic-ctn img:nth-child(2) {
+        animation-delay: 3s; }
+      .HeroView .pic-ctn img:nth-child(3) {
+        animation-delay: 6s; }
+      .HeroView .pic-ctn img:nth-child(4) {
+        animation-delay: 9s; }
+      .HeroView .pic-ctn img:nth-child(5) {
+        animation-delay: 12s; }
+
+  .color_filter_container {
+    height: 100%;
     top: 0;
     position: absolute;
-    width: 100%;
-    padding-top: 72vh;
+    width: 40vw;
+    padding-left: 60vw;
     background-color: rgba(0, 0, 0, 0.05); }
-    .HeroView .color_filter_container .container {
-      height: 18vh;
+    .color_filter_container .container {
+      height: 100%;
       width: 100%;
       background-color: transparent;
       z-index: 0; }
-      .HeroView .color_filter_container .container .top_container {
-        height: 18vh;
-        width: 60%;
-        border-left: 0.5px solid rgba(78, 62, 43, 0.3);
-        border-right: 0.5px solid rgba(78, 62, 43, 0.3);
-        border-top: 1px solid rgba(78, 62, 43, 0.3);
+      .color_filter_container .container .top_container {
+        height: 100%;
+        width: 100%;
+        border-top: 0.5px solid rgba(78, 62, 43, 0.3);
+        border-bottom: 0.5px solid rgba(78, 62, 43, 0.3);
+        border-left: 1px solid rgba(78, 62, 43, 0.3);
         box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-        margin: 0 auto;
         background-color: transparent;
         display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center; }
-        .HeroView .color_filter_container .container .top_container .item:hover {
-          border-bottom: 1px solid white;
-          opacity: 1;
-          transition: opacity 200ms; }
-        .HeroView .color_filter_container .container .top_container .item:hover .title {
-          color: white;
-          opacity: 1;
-          transition: color 200ms, opacity 200ms; }
-        .HeroView .color_filter_container .container .top_container .item {
-          border-left: 0.5px solid rgba(78, 62, 43, 0.3);
-          border-right: 0.5px solid rgba(78, 62, 43, 0.3);
-          width: 20%;
+        flex-direction: column; }
+        .color_filter_container .container .top_container .item {
+          border-bottom: 0.5px solid rgba(78, 62, 43, 0.3);
+          border-top: 0.5px solid rgba(78, 62, 43, 0.3);
+          width: 40vw;
+          height: 20%;
           background-color: #6d5d51;
-          opacity: 0.85;
-          padding: 1.5vh 0.5vw;
-          transition: opacity 200ms; }
-          .HeroView .color_filter_container .container .top_container .item .container {
-            height: 100%;
+          opacity: 0.85; }
+          .color_filter_container .container .top_container .item .container {
+            height: 98%;
+            padding: 1% 0;
             background-color: transparent;
             display: flex;
             flex-direction: column;
             align-content: center;
-            justify-content: space-between; }
-            .HeroView .color_filter_container .container .top_container .item .container .icon {
-              height: 50%;
+            align-items: center;
+            justify-content: center; }
+            .color_filter_container .container .top_container .item .container .icon {
+              width: 40%;
+              padding-bottom: 2%;
               object-fit: contain; }
-            .HeroView .color_filter_container .container .top_container .item .container .title {
-              font-size: 150%;
-              font-variant-caps: all-small-caps;
+            .color_filter_container .container .top_container .item .container .title {
+              font-size: 2.5vh;
+              font-variant-caps: petite-caps;
               font-weight: bolder;
               color: #e6e6e6;
               transition: color 200ms;
               max-lines: 2;
               overflow: hidden; }
-            .HeroView .color_filter_container .container .top_container .item .container .spacer_bar {
-              display: inline-block;
-              margin: 1vh auto 0;
-              width: 45%;
-              border-top: 1px solid white; }
+            .color_filter_container .container .top_container .item .container .spacer_bar {
+              display: none;
+              margin: 0;
+              width: 0;
+              height: 0; } }
 
 /*# sourceMappingURL=HeroView.css.map */
